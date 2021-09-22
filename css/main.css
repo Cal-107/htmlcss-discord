@@ -1,0 +1,46 @@
+/* reset and utilities */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.container {
+    width: 100%;
+}
+
+header .container {
+    background-color: #3161e0;
+}
+
+.box-setup-center {
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.box-setup-center .logo {
+    width: 30%;
+    background-color: blueviolet;
+    padding: 50px 5px 30px;
+    display: inline-block;
+}
+
+.box-setup-center .main-menu {
+    width: 70%;
+    background-color: burlywood;
+    padding: 50px 5px 30px;
+    display: inline-block;
+}
+
+.logo,
+.mainmenu {
+    float: left;
+}
