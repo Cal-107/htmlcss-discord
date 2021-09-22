@@ -12,6 +12,11 @@
     display: table;
 }
 
+.px10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .container {
     width: 100%;
 }
@@ -23,16 +28,27 @@ header .container {
 .box-setup-center {
     width: 70%;
     margin: auto;
-    padding: 30px 0px 15px
-    /* background-color: aqua; */
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-.button-setup-1 a {
+.button-setup-1 {
     background-color: #fff;
     color: #2b2f32;
+    padding: 1px 18px;
+    border-radius: 30px;
     text-decoration: none;
+}
+
+.c-white {
+    color: #fff;
+}
+
+.button-setup-2 {
+    background-color: #232;
     padding: 11px 18px;
     border-radius: 30px;
+    text-decoration: none;
 }
 
 /* header */
@@ -55,15 +71,14 @@ header .container {
     float: right;
 }
 
-span a {
-    font-size: 14px;
+.main-menu ul li {
+    padding-right: 45px;
 }
 
 .main-menu,
 .main-menu ul,
 .main-menu ul li {
     display: inline-block;
-    padding-right: 40px;
 }
 
 .main-menu li a{
@@ -71,30 +86,62 @@ span a {
     color: #fff;
 }
 
+.main-menu > a {
+    font-size: 14px;
+}
+
 /* main */
 
 /* banner section */
 main .container {
-    /* background-image: url(../img/jumbo.png); */
-    background-color: darkcyan;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 550px;
 }
 
 .banner {
     padding-top: 0;
-}
-
-.banner-info{
-    background-color: darkgreen;
     height: 550px;
+    width: 750px;
+    position: relative;
 }
 
-.placeholder {
-    width: 60%;
-    height: 100%;
-    background-color: darkkhaki;
-    margin: auto;
+.pb40 {
+    padding-bottom: 40px;
+}
+
+.banner-info {
+    position: absolute;
+    top: 20%;
     text-align: center;
 }
 
+.banner-info h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
 
+.banner p {
+    font-size: 20px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+.button-setup-2 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 40px;
+}
+
+.banner-info a:first-of-type {
+    display: inline-block;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 20px 40px;
+    margin-right: 35px;
+}
+
+/* more main */
