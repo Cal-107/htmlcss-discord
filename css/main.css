@@ -188,3 +188,134 @@ i {
     padding-top: 30px;
     line-height: 30px;
 }
+
+.centering {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-4 h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.box-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 18%;
+    text-align: center;
+}
+
+.box-text h2 {
+    font-size: 50px;
+}
+
+.box-text p {
+    font-size: 20px;
+    margin-top: 3%;  
+}
+
+.box-img img {
+    width: 100%;
+}
+
+/* call to action section */
+.call-to-action {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 15%;
+}
+
+.call-to-action h3 {
+    position: relative;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+.call-to-action h3 img {
+    position: absolute;
+    left: 25%;
+    bottom: 58%;
+    width: 51%;
+}
+
+.button-setup-3 {
+    background-color: #8ea1e1;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* footer */
+footer {
+    background-color: #23272a
+}
+
+.box-5 {
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.list-card {
+    float: left;
+}
+
+.list-card h4 {
+    font-size: 35px;
+    color: #7289da;
+}
+
+.list-card span {
+    color: #7289da;
+}
+
+.float-width {
+    width: 30%;
+    padding-right: 10%;
+}
+
+.float-width-2 {
+    width: 17%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.img-setup {
+    line-height: 2;
+    vertical-align: middle;
+    width: 10%;
+}
+
+.my-10 {
+    margin: 10% 0;
+}
+
+.footer-list {
+    padding-top: 6%
+}
+
+.list-card li {
+    list-style: none;
+}
+
+.list-card i {
+    font-size: 21px;
+    margin-right: 20px;
+}
+
+.box-5 hr {
+    margin: 3% 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right a {
+    font-size: 16px;
+}
